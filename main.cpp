@@ -46,6 +46,10 @@ int main(int argc, char** argv) {
     weapon = WeaponFactory::getInstance()->getWeapon("crazyrandomsword");
     simulateWeapon(weapon, armor);
     delete(weapon);
+    
+    weapon = WeaponFactory::getInstance()->getWeapon("kriticalkatana");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
 
     return 0;
 }
