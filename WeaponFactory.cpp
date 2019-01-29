@@ -1,7 +1,7 @@
 /* 
  * File:   WeaponFactory.cpp
  * Author: Javier <jrescobara@gmail.com>
- *  
+ * Edit: Juan <jam14j@my.fsu.edu>
  */ 
 
 #include <string>
@@ -9,6 +9,7 @@
 #include "WeaponFactory.h"
 #include "CommonSword.h" 
 #include "CommonSpear.h"
+#include "SimpleHammer.hpp"
 
 WeaponFactory* WeaponFactory::instance = NULL;
 
@@ -26,6 +27,10 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
     
     if (name.compare("spear") == 0) {
         return new CommonSpear();
+    }
+    
+    if (name.compare("simplehammer") == 0) {
+        return new SimpleHammer();
     }
 
     throw "Invalid weapon";
