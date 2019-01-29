@@ -1,3 +1,5 @@
+Answered by: Juan Antonio Martinez
+
 a) Enumerating objects: 11, done.
 Counting objects: 100% (10/10), done.
 Delta compression using up to 4 threads
@@ -56,3 +58,13 @@ j) If 100 developers had to coordinate merges, the development as a whole
    constantly solving the conflicts in the necessary merges. Not only is this
    more organized, but it also saves plenty of time, since the developers do
    not have to stop coding as often.                 
+
+5.- The game prototype shows both polymorphism and encapsulation. It displays
+    polymorphism in multiple ways. For instance, all weapons derive from a
+    single weapon class, so the weapon class can take multiple forms
+    depending on which constructor is being used. Additionally, the
+    WeaponFactory class has a single function that generates weapons and it
+    works for any type of weapon. Similarly, the game displays encapsulation
+    in multiple ways. All member data for all weapons is encapsulated in the
+    weapon class, and the constructors are encapsulated in the WeaponFactory
+    class.
