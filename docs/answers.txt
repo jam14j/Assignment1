@@ -1,0 +1,58 @@
+a) Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 888 bytes | 888.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/jam14j/Assignment1.git
+   3d373c9..7e86879  master -> master
+
+b) git log
+   5 commits.
+
+c) git blame .gitignore
+   2019-01-10 16:45:38
+
+d) 1- To work on a complicated feature without disturbing the work of others.
+   2- To test something that might break the entire program.
+
+e) git log: shows a list of all the commits in the project's history.
+   git status: shows the state of the local repository and the staging area.
+
+f) git log Weapon.h
+
+g) git log --grep="file"
+
+h) Inheritance: Basing a class on another class such that the new class
+                contains all of the attributes of the old class.
+   Polymorphism: When different objects can be accesses or used in the same
+		 situation. Like when a function is overloaded to be able
+                 to take in arguments of different types.
+   Encapsulation: Bundling data along with the functions that operate in
+                  them. Like in a c++ class.
+
+i) In the integration manager workflow, each developer has an independent 
+   repository and there is a single person, the integration manager, that is
+   in charge of merging those independent repositories. Similarly, in
+   dictator-lieutenants workflow, the task of merging the work of each
+   developer is also taken off the shoulders of the developers, but this time
+   the merging is taken care of by a team. First, each lieutenant merges the
+   work of a subset of developers, and in turn, the dictator merges the work
+   of the lieutenants. Integration manager merges in one step, while
+   dictator-lieutenant merges in one step.
+
+j) If 100 developers had to coordinate merges, the development as a whole
+   would be absolute chaos. For example, imagine developer A and developer B
+   are working together at the moment trying to merge their branches into
+   the main branch. Suppose they take about an hour to coordinate their
+   changes into a single commit. Within that hour developer C, D, and E also
+   merged and pushed their changes. On top of that, developer F accidentally
+   pushed some changes that make the changes from C, D, and E uncompilable.
+   A and B cannot push their changes before everything else has been
+   integrated... and so on... developer Z is now about 150 commits behind.
+   Using a dictator-lieutenants workflow, each developer can focus on their
+   own coding problems, and there are some people dedicated exclusively to
+   constantly solving the conflicts in the necessary merges. Not only is this
+   more organized, but it also saves plenty of time, since the developers do
+   not have to stop coding as often.                 
