@@ -1,0 +1,27 @@
+253e04e refs/remotes/origin/master@{0}: update by push
+253e04e refs/heads/master@{0}: merge development: Fast-forward
+253e04e HEAD@{0}: merge development: Fast-forward
+2ad2017 HEAD@{1}: checkout: moving from development to master
+253e04e refs/heads/development@{0}: commit: Answer more questions in answers.txt
+253e04e HEAD@{2}: commit: Answer more questions in answers.txt
+115bd25 refs/heads/development@{1}: commit: Add new weapon: KriticalKatana
+115bd25 HEAD@{3}: commit: Add new weapon: KriticalKatana
+f5e0d2c refs/heads/development@{2}: commit: Add new weapon: CrazyRandomSword
+f5e0d2c HEAD@{4}: commit: Add new weapon: CrazyRandomSword
+fb8bbc2 refs/heads/development@{3}: commit: Create new SimpleHammer weapon
+fb8bbc2 HEAD@{5}: commit: Create new SimpleHammer weapon
+2ad2017 refs/heads/development@{4}: branch: Created from HEAD
+2ad2017 HEAD@{6}: checkout: moving from master to development
+2ad2017 refs/remotes/origin/master@{1}: update by push
+2ad2017 refs/heads/master@{1}: commit: Fill up answers.txt
+2ad2017 HEAD@{7}: commit: Fill up answers.txt
+0201687 refs/heads/master@{2}: commit: Create the answer.txt file
+0201687 HEAD@{8}: commit: Create the answer.txt file
+7e86879 refs/remotes/origin/master@{2}: update by push
+7e86879 refs/heads/master@{3}: commit: Save status of repository before push
+7e86879 HEAD@{9}: commit: Save status of repository before push
+03ad586 refs/heads/master@{4}: commit: Update README file
+03ad586 HEAD@{10}: commit: Update README file
+3d373c9 refs/heads/master@{5}: clone: from https://github.com/jam14j/Assignment1.git
+3d373c9 refs/remotes/origin/HEAD@{0}: clone: from https://github.com/jam14j/Assignment1.git
+3d373c9 HEAD@{11}: clone: from https://github.com/jam14j/Assignment1.git
